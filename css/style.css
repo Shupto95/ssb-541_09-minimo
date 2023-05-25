@@ -1,0 +1,241 @@
+/* font-family start */
+@font-face{
+    font-family:ubuntu-bold;
+    src:url(../font/ubuntu/ubuntu-bold.ttf);
+}
+
+@font-face{
+    font-family: playfairdisplay-bold;
+    src:url(../font/Playfair_Display/static/playfairdisplay-bold.ttf);
+}
+/* font-family end */
+
+/* commmon start */
+
+    body{
+        margin: 0;
+        font-family:  'playfair display', serif;
+        font-size:16px ;
+        font-weight: 400;
+        color:#626262 ;
+    }
+
+/* commmon end */
+
+/* header start */
+
+    header{
+        padding: 30px 0;
+        /* border: 1px solid red; */
+    }
+    .container{  
+        margin: 0 auto;
+        width: 90%;
+        overflow: hidden;
+    }
+    .logo{
+        width: 14%;
+        /* border: 1px solid red; */
+        float: left;
+
+    }
+    .logo img{
+        width: 100% ;
+    }
+    .menu{
+        width: 66%;
+        /* border: 1px solid; */
+        float: right;
+
+    }
+    .menu ul{
+        margin: 0px;
+        float: right;
+    }
+    .menu ul li{
+        float: left;
+        list-style: none;
+    }
+    .menu ul li:last-child a{
+     margin-right: 0;
+    }
+    .menu ul li a{   
+        margin: 7px 47px;
+        padding: 5px 0;
+        display: inline-block;
+        text-decoration: none;
+        color: #626262;
+        text-transform: uppercase;
+        border-bottom: 1px solid transparent ;
+        transition: 1s ease;
+
+    
+    }
+    .menu ul li a:hover{
+     border-bottom: 1px solid #626262 ;
+    }
+
+/* header end */
+
+/* banner start */
+
+    .banner{}
+    .b_image{}
+    .b_image img{
+        width: 100%;
+    }
+
+/* banner end */
+
+/* perfect start */
+
+    .perfect{
+        padding: 100px 0 20px;
+    }
+    .container2{
+        margin:0 auto;
+        width: 80%;
+        /* border: 1px solid black; */
+        overflow: hidden;
+    }
+    .c_lite{
+        margin: 0;
+        font-family:'ubuntu', sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+    .c_title{
+        margin: 20px 0 25px;
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .c_text{
+        line-height:24px;
+    }
+    
+    .c_mb{
+        margin-bottom: 45px;
+    }
+/* perfect end */
+
+/* blog start */
+
+    .blog{
+        padding-bottom: 100px;
+    }
+    .s_blog{
+     
+        width: 45%;
+        /* border: 1px solid red; */
+        float: left;
+        margin-right: 10%;
+        box-sizing: border-box;
+    
+    }
+    .sb_mt{
+        margin-top: 80px;
+    }
+    .s_blog:nth-child(even){
+        margin-right: 0;
+    }
+    .s_img{
+        margin-bottom: 20px;
+    }
+    .s_img img{
+        width: 100%;
+    }
+
+/* blog end */
+
+/* news letter start */
+
+    .news{
+        height: 300px;
+        background-color: #f0f0f0;
+    }
+
+/* news letter end */
+/* blog2 start */
+
+.blog2{
+    padding: 20px 0 100px;
+}
+.loadmore{
+    text-align: center;
+    margin: 100px 0;
+}
+.loadmore button{
+    width: 165px;
+    height: 60px;
+    font-family: 'playfair display', serif;
+    background-color: white;
+    border: 1px solid #000000;
+    font-size: 16px;
+    font-weight: 400;
+    color:#626262;
+    cursor: pointer;
+}
+.loadmore button:hover{
+    background-color: #626262;
+    color: #ffffff;
+    transition: 1s ease;
+}
+
+/* blog2 end */
+
+/* footer start */
+
+    footer{
+        background-color:#f0f0f0;
+        padding: 20px 0;
+    }
+    .f_right{
+        width: 20%;
+        float: left;
+    }
+    .f_right ul{
+      
+    }
+    .f_right ul li{
+        list-style: none;
+        float: left;
+    }
+  
+    .f_right ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .f_right ul li:first-child{
+        margin-left: -39px;
+    }
+    .f_right ul li:last-child{
+        margin-left: 25px;
+    }
+     
+    .f_left{
+        width: 20%;
+        float: right;
+       
+    }
+    .f_left ul{
+       float: right;
+      
+    }
+    .f_left ul li{
+        list-style: none;
+        float: left;
+        margin-left: 26px;
+
+    }
+    .f_left ul li span{
+        margin: 0px;
+        color: black;
+    }
+    .f_left ul li a{
+        text-decoration: none;
+    }
+
+    .f_left ul li a img{}
+
+/* footer end */
